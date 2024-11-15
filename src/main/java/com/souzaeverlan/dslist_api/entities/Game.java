@@ -105,8 +105,8 @@ public class Game {
 		this.platforms = platforms;
 	}
 
-	public String getScore() {
-		return platforms;
+	public Double getScore() {
+		return score;
 	}
 
 	public void setScore(Double score) {
